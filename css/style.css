@@ -31,6 +31,14 @@ ul {
   color: #fff;
 }
 
+.dark {
+  padding: 1em;
+  background-color: #35424a;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Header */
 header {
   background-color: #35424a;
@@ -137,4 +145,53 @@ footer {
   color: #fff;
   background-color: #e8491d;
   text-align: center;
+}
+
+/***************************************************/
+/*         ABOUT PAGE                              */
+/***************************************************/
+
+#main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+article#main-col {
+  width: 65%;
+}
+
+/* Sidebar */
+#sidebar {
+  width: 30%;
+}
+
+/***************************************************/
+/*         SERVICES PAGE                           */
+/***************************************************/
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 5px auto;
+}
+
+#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background-color: #e6e6e6;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+aside#sidebar button {
+  width: 20%;
 }
