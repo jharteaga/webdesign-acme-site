@@ -1,7 +1,140 @@
-.main-container {
-  font-size: 32px;
+* {
+  box-sizing: border-box;
 }
 
-p {
-  font-size: 1rem;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  background-color: #e8491e;
+  border: none;
+  padding: auto 20px;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #35424a;
+  color: #fff;
+  padding-top: 0;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+  display: flex;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+header li {
+  display: inline;
+  padding: 0 1.2em;
+  font-weight: bold;
+}
+
+header .highlight,
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background: url('../img/showcase.png') no-repeat 0 -100px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 1.2rem;
+}
+
+/* Newsletter */
+
+#newsletter {
+  padding: 1em;
+  color: #fff;
+  background-color: #35424a;
+}
+
+#newsletter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#newsletter input[type='email'] {
+  padding: 4px;
+  height: 40px;
+  width: 250px;
+}
+
+/* Boxes */
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxes .box {
+  width: 30%;
+  padding: 0.8em;
+  text-align: center;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+/* footer */
+footer {
+  padding: 9px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #e8491d;
+  text-align: center;
 }
